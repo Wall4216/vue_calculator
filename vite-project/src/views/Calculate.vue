@@ -1,6 +1,5 @@
-
 <script setup>
-var vue = new Vue({
+var vue = ({
   el: '#app',
   data: {
     result: '',
