@@ -8,6 +8,7 @@ import Input from "@/views/Input.vue";
 import Tabs from "@/views/Tabs.vue";
 import Typography from "@/views/Typography.vue";
 import Table from "@/views/Table.vue";
+import Calculate from "@/views/Calculate.vue";
 const router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -56,6 +57,11 @@ const router = createRouter({
             path: '/table',
             name: 'Table',
             component: Table
+        },
+        {
+            path: '/calculate',
+            name: 'Calculate',
+            component: Calculate
         },
     ]
 })
